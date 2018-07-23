@@ -171,7 +171,7 @@ RUN mkdir /opt/bin
 RUN chmod -R 777 /opt
 WORKDIR /opt/bin 
 #sed could not effectively change file as described above - sp just create a new copy of resting_pipeline 
-COPY ./src/resting_pipeline.py .
+COPY ./src/resting_pipeline.py /opt/rsfmri_python/bin
 COPY ./src/startup.sh .
 COPY ./src/runfeat-1.py .
 COPY ./src/statusfeat.py .
