@@ -205,4 +205,3 @@ RUN /bin/bash -c ". ~/.bash_profile"
 RUN echo ". ~/.bash_profile" >> ~/.bashrc
 
 ENTRYPOINT ["/opt/bin/startup.sh"]
-CMD ["more /opt/bin/readme"]
