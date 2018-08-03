@@ -34,6 +34,7 @@ export LD_LIBRARY_PATH=/usr/lib:$LD_LIBRARY_PATH
 export PATH=/usr/local/cuda/bin:$PATH
 %files
 
+
 %runscript
 cd /opt/data
 exec /opt/bin/startup.sh "$@"
